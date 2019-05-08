@@ -17,8 +17,8 @@ module.exports = {
                 title: '标题1',
                 collapsable: true, //是否展开
                 children:[
-                    ['./guide-one/1', '指南1'],
-                    ['./guide-one/', '指南1'],
+                    ['./guide-one/1', '指南1-1'],
+                    ['./guide-one/', '指南1-2'],
                 ],
             },
             // ['./guide-one/','指南1'],

@@ -6,12 +6,15 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "d": "bash deploy.sh" 
+    "d": "bash deploy.sh",
+    "deploy": "gh-pages -d docs/.vuepress/dist",
+    "deploy:build": "vuepress build docs && gh-pages -d docs/.vuepress/dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "vuepress": "^0.14.11"
   }
 }
